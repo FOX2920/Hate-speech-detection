@@ -21,8 +21,8 @@ if uploaded_file is not None:
     label_counts = df['label_id'].value_counts()
     
     # Hiển thị số lượng free_text của mỗi nhãn
-    st.write("Số lượng nhãn OFFENSIVE (2):", label_counts.get(2, 0))
-    st.write("Số lượng nhãn Clean (0):", label_counts.get(0, 0))
+    st.write("Số lượng nhãn HATE (2):", label_counts.get(2, 0))
+    st.write("Số lượng nhãn CLEAN (0):", label_counts.get(0, 0))
     st.write("Số lượng nhãn OFFENSIVE (1):", label_counts.get(1, 0))
 
     # Hiển thị biểu đồ thống kê
