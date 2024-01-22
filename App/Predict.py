@@ -2,7 +2,7 @@ import streamlit as st
 from pyspark.ml import PipelineModel
 
 # Load the Spark model
-spark_model = PipelineModel.load("path/to/your/spark_model")
+spark_model = PipelineModel.load("model/Navie_Bayes")
 
 # Streamlit app
 st.title("Text Classification App")
