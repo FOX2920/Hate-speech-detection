@@ -1,0 +1,1 @@
+{"class":"__main__.TextTransformer","timestamp":1705891020965,"sparkVersion":"3.5.0","uid":"TextTransformer_6fe32ec7f1e1","paramMap":{"input_col":"free_text","output_col":"free_text"},"defaultParamMap":{"outputCol":"TextTransformer_6fe32ec7f1e1__output","input_col":null,"output_col":null}}
