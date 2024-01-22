@@ -14,7 +14,10 @@ import re
 import string
 
 # Load Spark session
-spark = SparkSession.builder.appName("StreamlitApp").getOrCreate()
+spark = SparkSession.builder\
+    .appName("HateSpeechDetection")\
+    .master('local[*]')\
+    .getOrCreate()
 
 # Load the pre-trained model
 loaded_model = PipelineModel.load('Model/LogisticRegression')
