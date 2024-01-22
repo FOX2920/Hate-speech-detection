@@ -3,5 +3,3 @@ pandas
 matplotlib
 seaborn
 pyspark
-re
-string
